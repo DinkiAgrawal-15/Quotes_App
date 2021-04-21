@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QuotesApp</string>
+    <string name="quote1">Happy</string>
+    <string name="quote2">I love you the more in that I believe you had liked me for my own sake and for nothing else.</string>
+    <string name="quote3">But man is not made for defeat. A man can be destroyed but not defeated.</string>
+    <string name="quote4">When you reach the end of your rope, tie a knot in it and hang on.</string>
+    <string name="quote5">There is nothing permanent except change.</string>
+    <string name="quote6">Learning never exhausts the mind.</string>
+    <string name="quote7">All that we see or seem is but a dream within a dream.</string>
+    <string name="quote8">Let us sacrifice our today so that our children can have a better tomorrow.</string>
+    <string name="quote9">A problem is a chance for you to do your best.</string>
+    <string name="quote10">Living well is the best revenge.</string>
+</resources>

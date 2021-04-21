@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:padding="32dp"
+    android:paddingTop="32dp"
+    android:paddingBottom="0dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Feel Free"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleX="-1"
+        android:scaleY="-1"
+        android:layout_above="@+id/textViewtextquote"
+        android:src="@drawable/ic_baseline_format_quote_24"
+        app:tint="#454545" />
+
+    <TextView
+        android:id="@+id/textViewtextquote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:hint="The quote will bedisplay here"
+        android:padding="20dp"
+        android:textColor="#FFF"
+        android:layout_above="@+id/buttonnextQuote"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/buttonnextQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Quote"
+        android:background="@color/cardview_dark_background"
+        android:layout_centerInParent="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="right">
+        <Button
+            android:onClick="shareQuote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_share"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
